@@ -2,7 +2,7 @@ package uni1a;
 
 public abstract class ContenidoAudiovisual {
     private static int contar = 0;
-    private String titulo;
+    protected String titulo;
     private int duracionEnMinutos;
     private String genero;
     private int id;
